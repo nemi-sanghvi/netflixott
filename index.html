@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Netflix OTT Platform</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/slick.css" />
+        <link rel="stylesheet" href="./css/slick-theme.css" />
+        <link rel="stylesheet" href="./css/common.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/media.css" />
+    </head>
+    <body>
+        <!-- section 1-->
+        <div class="heade-area">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <div class="logo">
+                        <a class="navbar-brand" href="#">
+                            <img
+                                src="./images/logo.png"
+                                alt=""
+                                class="img-fluid"
+                            />
+                        </a>
+                    </div>
+
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">shows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Movies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">comedy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                        </ul>
+                        <form class="form-box" role="search">
+                            <div class="form-group">
+                                <input
+                                    class="icontrol form-control"
+                                    type="search"
+                                    placeholder="Search"
+                                    aria-label="Search"
+                                />
+                                <button
+                                    class="common-btn btn btn-dark subscribe"
+                                    type="submit"
+                                >
+                                    subscribe
+                                </button>
+                                <button
+                                    class="common-btn btn btn-dark"
+                                    type="submit"
+                                >
+                                    login
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- section 2 -->
+        <div class="baner-area">
+            <!-- sidebar -->
+            <div class="sidebar">
+                <div class="toggle-menu">
+                    <button type="button" class="btn btn-dark menu-toggle">
+                        <img src="./images/rightarrow.svg" alt="" />
+                    </button>
+                </div>
+                <ul class="side-menu">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                            >Channels</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"
+                            >Languages</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"
+                            >Genres</a
+                        >
+                    </li>
+                </ul>
+            </div>
+            <!-- sidebar-content -->
+            <div class="sidebar-content">
+                <!--  -->
+                <div class="bannerslider-box">
+                    <div class="banner-slider">
+                        <div>
+                            <div class="banner-image">
+                                <img
+                                    src="./images/s1.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="banner-image">
+                                <img
+                                    src="./images/s2.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="banner-image">
+                                <img
+                                    src="./images/s3.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="banner-image">
+                                <img
+                                    src="./images/s4.jpeg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="banner-image">
+                                <img
+                                    src="./images/s5.jpeg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="banner-image">
+                                <img
+                                    src="./images/s6.jpeg"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- shows area -->
+                <div class="shows-area">
+                    <div class="showsmain-box">
+                        <div class="shows-part">
+                            <div class="showswhole-box">
+                                <div class="shows-image">
+                                    <img
+                                        src="./images/s1.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </div>
+                                <ul class="shows-content">
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active"
+                                            aria-current="page"
+                                            href="#"
+                                            >Channels</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >Languages</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >Genres</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="shows-part">
+                            <div class="showswhole-box">
+                                <div class="shows-image">
+                                    <img
+                                        src="./images/s2.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </div>
+                                <ul class="shows-content">
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active"
+                                            aria-current="page"
+                                            href="#"
+                                            >Channels</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >Languages</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >Genres</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="shows-part">
+                            <div class="showswhole-box">
+                                <div class="shows-image">
+                                    <img
+                                        src="./images/s3.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </div>
+                                <ul class="shows-content">
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active"
+                                            aria-current="page"
+                                            href="#"
+                                            >Channels</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >Languages</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >Genres</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="shows-part">
+                            <div class="showswhole-box">
+                                <div class="shows-image">
+                                    <img
+                                        src="./images/s4.jpeg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </div>
+                                <ul class="shows-content">
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active"
+                                            aria-current="page"
+                                            href="#"
+                                            >Channels</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >Languages</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >Genres</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="shows-part">
+                            <div class="showswhole-box">
+                                <div class="shows-image">
+                                    <img
+                                        src="./images/s5.jpeg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </div>
+                                <ul class="shows-content">
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active"
+                                            aria-current="page"
+                                            href="#"
+                                            >Channels</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >Languages</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >Genres</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- trending shows -->
+                <div class="trendingshows-area">
+                    <div
+                        class="accordion accordion-tab accordion-flush"
+                        id="accordionExample"
+                    >
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button
+                                    class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne"
+                                    aria-expanded="true"
+                                    aria-controls="collapseOne"
+                                >
+                                    Recommeneded for you
+                                </button>
+                            </h2>
+                            <div
+                                id="collapseOne"
+                                class="accordion-collapse collapse show"
+                                aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <div class="trending-shows">
+                                        <div class="trending-images">
+                                            <img
+                                                src="./images/s1.jpg"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="trending-content">
+                                            <p>
+                                                Stranger Things is one of the
+                                                most popular shows on TV, and
+                                                for good reason. This show
+                                                skillfully blends horror,
+                                                science fiction, and nostalgic
+                                                elements from the 1980s to
+                                                create a captivating story that
+                                                appeals to viewers of all ages.
+                                                The art design evokes the 80s
+                                                aesthetic, while the music
+                                                further emphasizes the feeling
+                                                of nostalgia within the show.
+                                                The young actors in Stranger
+                                                Things deliver phenomenal
+                                                performances that bring each
+                                                character to life. They manage
+                                                to portray the emotions and
+                                                motivations of each character in
+                                                a believable manner, making
+                                                viewers care about them.
+                                                Moreover, Stranger Things is
+                                                masterful in their suspenseful
+                                                moments, often leaving the
+                                                viewers on the edge of their
+                                                seats. Overall, Stranger Things
+                                                is a highly entertaining show
+                                                that is able to keep its
+                                                audience hooked from the first
+                                                episode to the last.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo"
+                                    aria-expanded="false"
+                                    aria-controls="collapseTwo"
+                                >
+                                    Animated adventures
+                                </button>
+                            </h2>
+                            <div
+                                id="collapseTwo"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <div class="trending-shows">
+                                        <div class="trending-images">
+                                            <img
+                                                src="./images/t2.png"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="trending-content">
+                                            <p>
+                                                New family adventure Robinson
+                                                Crusoe is being released in UK
+                                                cinemas on May 6th (with
+                                                previews over the May bank
+                                                holiday weekend, April 30th-May
+                                                2nd, while the US release is
+                                                September 9th) and you can take
+                                                a first look at the trailer
+                                                online from uk below. It’s a new
+                                                take on the classic story as
+                                                parrot Tuesday dreams of leaving
+                                                paradise to see the world, and
+                                                sees his ticket off the island
+                                                when human Robinson washes up on
+                                                the beach:
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree"
+                                    aria-expanded="false"
+                                    aria-controls="collapseThree"
+                                >
+                                    Popular shows
+                                </button>
+                            </h2>
+
+                            <div
+                                id="collapseThree"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <div class="trending-shows">
+                                        <div class="trending-images">
+                                            <img
+                                                src="./images/s3.jpg"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="trending-content">
+                                            <p>
+                                                When an Interpol-issued Red
+                                                Notice--the highest-level
+                                                warrant to hunt and capture the
+                                                world's most wanted--goes out,
+                                                the FBI's top profiler, John
+                                                Hartley (Dwayne Johnson), is on
+                                                the case. His global pursuit
+                                                lands him smack-dab in the
+                                                middle of a daring heist where
+                                                he's forced to partner with the
+                                                world's greatest art thief,
+                                                Nolan Booth (Ryan Reynolds), in
+                                                order to catch the world's most
+                                                wanted art thief, "The Bishop"
+                                                (Gal Gadot). The high-flying
+                                                adventure that ensues takes the
+                                                trio around the world, across
+                                                the dance floor, trapped in a
+                                                secluded prison, into the jungle
+                                                and, worst of all for them,
+                                                constantly into one another's
+                                                company
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour"
+                                    aria-expanded="false"
+                                    aria-controls="collapseThree"
+                                >
+                                    News & Upcoming
+                                </button>
+                            </h2>
+
+                            <div
+                                id="collapseFour"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <div class="trending-shows">
+                                        <div class="trending-images">
+                                            <img
+                                                src="./images/s4.jpeg"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                        <div class="trending-content">
+                                            <p>
+                                                Lenny Kravitz knew best ...
+                                                Music reference aside, this
+                                                movie continues from where
+                                                Breaking Bad left us. So suffice
+                                                to say that this was made for
+                                                fans of the show. And I will
+                                                assume that you have seen the TV
+                                                show, therefor do not read on,
+                                                if you haven't. The very last
+                                                episode of Breaking Bad seemed
+                                                to round things up. Almost all
+                                                loose ends were tight up.
+                                                Especially when it came to
+                                                Walter White. And what was
+                                                Breaking Bad if not a show about
+                                                a teacher who became this bigger
+                                                than life villain? Well Aaron
+                                                Paul had something to say about
+                                                that. And since his character
+                                                had something to offer us still
+                                                ... the creator of Breaking Bad
+                                                felt he could satisfy the need
+                                                from fans to have more. And for
+                                                fans the movie is filled with
+                                                little pieces of callbacks and
+                                                nice references. Not to mention
+                                                some flashbacks with some of our
+                                                favorite characters (to hate).
+                                                So yes I do understand if some
+                                                feel this undermines the end of
+                                                the actual TV show, but that
+                                                would be missing the bigger
+                                                picture (no pun intended). Yes
+                                                there was not an absolute need
+                                                for this movie, but what it does
+                                                is expanding on the ending and
+                                                giving us something that
+                                                transcends the TV show and may
+                                                even elevate it - not to mention
+                                                get many people to rewatch the
+                                                original series ... even more so
+                                                than Better call Saul made them
+                                                do it (a show I haven't watched
+                                                yet) ...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.4.js"
+            integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+            crossorigin="anonymous"
+        ></script>
+        <script src="./js/slick.js"></script>
+
+        <script>
+            $('.banner-slider').slick({
+                arrows: false,
+                dots: true,
+                infinite: true,
+                speed: 500,
+                loop: true,
+                autoplay: true, // time for slides changes
+                smartSpeed: 1000, // duration of change of 1 slide
+                autoHeight: false,
+                // autoplayHoverPause: true,
+                fade: false,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                waitForAnimate: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            })
+        </script>
+        <script>
+            $('.menu-toggle').click(function () {
+                $('.sidebar').toggleClass('active')
+            })
+        </script>
+    </body>
+</html>

@@ -1,0 +1,119 @@
+@media screen and (max-width: 1440px) {
+    .shows-area .showsmain-box .shows-part {
+        width: 33.33%;
+    }
+    .heade-area .logo .navbar-brand img {
+        max-width: 150px;
+    }
+    .heade-area .navbar-nav .nav-item .nav-link {
+        margin: 0px 20px;
+    }
+    .baner-area .bannerslider-box .banner-slider .slick-slide .banner-image img {
+        height: 600px;
+    }
+    .shows-area .showsmain-box .shows-part {
+        padding: 15px 15px;
+    }
+    .shows-area .showsmain-box {
+        margin: -15px -15px;
+    }
+    .shows-area .showswhole-box .shows-content .nav-item .nav-link {
+        padding: 15px 0px;
+    }
+    .shows-area .showswhole-box .shows-content {
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 1200px) {
+    .shows-area .showsmain-box .shows-part {
+        width: 50%;
+    }
+    .common-btn {
+        padding: 10px 10px;
+    }
+    .heade-area .navbar-nav .nav-item .nav-link {
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .heade-area .navbar-nav .nav-item .nav-link {
+        margin: 0px 0px;
+        padding: 16px 10px;
+    }
+    .heade-area .logo .navbar-brand img {
+        max-width: 100px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .container {
+        padding: 0px 20px;
+    }
+    .navbar-toggler {
+        background-color: white;
+        border-radius: 0px;
+        padding: 0px 4px;
+        z-index: 20;
+    }
+    .navbar-collapse {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 15;
+        background-color: black;
+        padding: 80px 20px;
+        top: 0;
+        bottom: 0;
+        height: 100vh;
+        transform: translateX(-100%);
+        transition: all 0.3s ease;
+        &.show {
+            transform: translateX(0%);
+        }
+    }
+    .logo {
+        z-index: 40;
+    }
+    .heade-area .logo .navbar-brand img {
+        max-width: 200px;
+    }
+    .heade-area .navbar-nav .nav-item .nav-link {
+        padding: 16px 0px;
+    }
+    .baner-area .bannerslider-box .banner-slider .slick-slide .banner-image img {
+        height: 600px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .baner-area .bannerslider-box .banner-slider .slick-slide .banner-image img {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .heade-area .form-box .form-group {
+        display: block;
+    }
+    .heade-area .form-box .form-group .subscribe {
+        margin: 15px 0px;
+    }
+    .common-btn {
+        width: 100%;
+    }
+    .heade-area .logo .navbar-brand img {
+        max-width: 160px;
+    }
+    .shows-area .showsmain-box .shows-part {
+        width: 100%;
+    }
+    .baner-area .sidebar-content {
+        padding: 50px 20px;
+    }
+    .baner-area .bannerslider-box .banner-slider .slick-slide .banner-image img {
+        height: 300px;
+    }
+}
+@media screen and (max-width: 320px) {
+}
